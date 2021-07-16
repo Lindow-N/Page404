@@ -1,6 +1,7 @@
 
 h2 {
   position:absolute;
+  font-family: 'Space Mono', monospace;
   font-weight: 700;
   height: 25px;
   top:40px;
@@ -22,23 +23,25 @@ img {
 
 h1 {
   position:absolute;
-  width: 586px;
+  font-family: 'Space Mono', monospace;
+  width: 550px;
   height: 190px;
-  top: 265px;
-  left: 735px;
-  font-weight: 700;
+  top: 150px;
+  left: 800px;
   font-size: 64px;
   line-height: 94,78px;
   font-weight: bold;
+  font-style: italic;
   letter-spacing: -0.035em;
   color: #333333;
 }
 p{
 position: absolute;
+font-family: 'Space Mono', monospace;
 width: 381px;
 height: 108px;
-left: 736px;
-top: 491px;
+left: 800px;
+top: 350px;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -51,8 +54,8 @@ button{
 position: absolute;
 width: 216px;
 height: 68px;
-left: 740px;
-top: 663px;
+left: 800px;
+top: 550px;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -61,6 +64,7 @@ letter-spacing: -0.035em;
 text-transform: uppercase;
 color: #FFFFFF; 
 background: #333333;
+cursor: not-allowed;
 }
 h3{
 height: 17px;
